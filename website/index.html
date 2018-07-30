@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Website</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js""></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand"><img src="images/logo.jpg"></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse collapse" id="myNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Connect</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Slider -->
+	<div class="slide carousel" data-ride="carousel" id="slides">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+
+		<div class="carousel-inner" id="#slides">
+			<div class="carousel-item active">
+				<img src="images/bg1.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Bootstrap</h1>
+					<h3>Complete Website Layout</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">View Demo</button>
+					<button type="button" class="btn btn-lg bg-primary">Get Started</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/bg2.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="images/bg3.jpg">
+			</div>
+		</div>
+	</div>
+
+	<!-- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader </p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<!--
+	.col- (extra small devices - screen width less than 576px)
+	.col-sm- (small devices - screen width equal to or greater than 576px)
+	.col-md- (medium devices - screen width equal to or greater than 768px)
+	.col-lg- (large devices - screen width equal to or greater than 992px)
+	.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+-->
